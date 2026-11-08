@@ -1,0 +1,63 @@
+{
+  "_note": "Plateaux, paniers et coffrets (cartes style Lenôtre). Prix « à partir de » relevés sur leur page de livraison le 08/11/2026. null = À REMPLIR avec Galit (nombre de personnes, délai, contenu exact).",
+  "updated": "2026-11-08",
+  "products": [
+    {
+      "id": "office",
+      "photo": "/media/evenements/buffet-traiteur.jpg",
+      "priceFrom": 468,
+      "persons": null,
+      "leadHours": 24,
+      "pickup": true,
+      "delivery": true
+    },
+    {
+      "id": "sandwiches",
+      "photo": "/media/cafe/sandwichs-bar-salades.jpg",
+      "priceFrom": 200,
+      "units": 12,
+      "persons": null,
+      "leadHours": 24,
+      "pickup": true,
+      "delivery": true
+    },
+    {
+      "id": "quiche",
+      "photo": null,
+      "priceFrom": 110,
+      "units": 12,
+      "persons": null,
+      "leadHours": 24,
+      "pickup": true,
+      "delivery": true
+    },
+    {
+      "id": "fruit",
+      "photo": "/media/plateaux/plateau-fruits.jpg",
+      "priceFrom": null,
+      "persons": null,
+      "leadHours": 24,
+      "pickup": true,
+      "delivery": true
+    },
+    {
+      "id": "picnic",
+      "photo": "/media/plateaux/panier-pique-nique.jpg",
+      "priceFrom": null,
+      "persons": 2,
+      "leadHours": 24,
+      "pickup": true,
+      "delivery": true
+    },
+    {
+      "id": "sweets",
+      "photo": "/media/patisserie/babka-rugelach.jpg",
+      "priceFrom": 49,
+      "persons": null,
+      "leadHours": 24,
+      "pickup": true,
+      "delivery": true
+    }
+  ],
+  "_leadHours": "Délai de commande par défaut : 24 h (hypothèse, à confirmer)."
+}

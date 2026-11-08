@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "title": "Cafetería y pastelería en Tel Aviv – bandejas y catering para eventos | Uzi & Galit",
+    "description": "Uzi & Galit, cafetería de barrio y pastelería en Aharon Becker 8 (centro Mikado), Tel Aviv. Bollería del día, bocadillos, ensaladas, bandejas lácteas, cestas de picnic y catering para eventos. Pedidos por WhatsApp.",
+    "ogAlt": "Una mesa llena de bandejas de catering de Uzi & Galit, vista desde arriba"
+  },
+  "a11y": {
+    "skip": "Ir al contenido",
+    "lang": "Idioma",
+    "openMenu": "Abrir el menú",
+    "closeMenu": "Cerrar el menú",
+    "newTab": "(se abre en una pestaña nueva)"
+  },
+  "intro": { "skip": "Saltar" },
+  "banner": { "label": "Información práctica", "close": "Cerrar el aviso" },
+  "status": {
+    "openNow": "Abierto ahora",
+    "closedNow": "Cerrado ahora",
+    "until": "hasta las {time}",
+    "opensToday": "abre hoy a las {time}",
+    "opensTomorrow": "abre mañana a las {time}",
+    "opensOn": "abre el {day} a las {time}",
+    "closure": "Hoy cerrado: {reason}",
+    "todayOpen": "Hoy: {from}–{to}",
+    "todayClosed": "Hoy cerrado"
+  },
+  "days": ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"],
+  "nav": {
+    "menu": "La carta",
+    "trays": "Bandejas",
+    "catering": "Catering para eventos",
+    "about": "Quiénes somos",
+    "directions": "Cómo llegar",
+    "order": "Pedir por WhatsApp",
+    "orderShort": "Pedir",
+    "call": "Llamar",
+    "instagram": "Instagram",
+    "wolt": "Pedir en Wolt"
+  },
+  "hero": {
+    "kicker": "Cafetería · Pastelería · Catering · Aharon Becker 8",
+    "title": "Venid por el café. Quedaos por la tarta.",
+    "lead": "Una cafetería de barrio con bollería de nuestro horno, comidas ligeras y bandejas que llevamos a vuestra casa u oficina.",
+    "ctaMenu": "Ver la carta",
+    "videoLabel": "Un doble espresso y un capuchino preparándose en la máquina",
+    "press": "Hablan de nosotros",
+    "wolt": "También en Wolt"
+  },
+  "tiles": {
+    "title": "Lo que hacemos",
+    "items": {
+      "cafe": "La cafetería",
+      "pastry": "Pastelería",
+      "trays": "Bandejas para recibir",
+      "picnic": "Cestas de picnic",
+      "catering": "Catering para eventos"
+    }
+  },
+  "services": {
+    "label": "Cómo pedir",
+    "items": [
+      { "id": "whatsapp", "title": "Pedido por WhatsApp", "text": "Nos escribís y confirmamos." },
+      { "id": "wolt", "title": "Envío con Wolt", "text": "La carta del día, a domicilio." },
+      { "id": "pickup", "title": "Recogida en el café", "text": "Listo a la hora que elijáis." },
+      { "id": "events", "title": "Eventos", "text": "Catering lácteo para cualquier ocasión." }
+    ]
+  },
+  "menu": {
+    "kicker": "La carta",
+    "title": "¿Qué comemos hoy?",
+    "lead": "Bollería de la mañana, bocadillos de la barra, ensaladas y café. Todo lácteo.",
+    "updated": "Actualizada el {date}",
+    "tabs": {
+      "breakfast": "Desayuno y platos calientes",
+      "salads": "Ensaladas",
+      "sandwiches": "Bocadillos y tostados",
+      "pastry": "Bollería y tartas",
+      "drinks": "Bebidas",
+      "kids": "Niños"
+    },
+    "priceTbd": "Precio pronto",
+    "toFill": "Por completar",
+    "sample": "Visto en Instagram",
+    "range": "{from}–{to} ₪",
+    "vegan": "Vegano",
+    "allergens": "Los precios son los del envío a domicilio y pueden cambiar. ¿Alguna alergia? Decídnoslo antes de pedir.",
+    "orderCta": "Pedir por WhatsApp",
+    "wolt": "Pedir en Wolt"
+  },
+  "trays": {
+    "kicker": "Bandejas y cestas",
+    "title": "Llegan listas para servir.",
+    "lead": "Para una reunión en la oficina, amigos en casa o un picnic en el parque. Pedid con un día de antelación y recogedlo o recibidlo en casa.",
+    "from": "Desde ",
+    "persons": "Para {n} personas",
+    "personsTbd": "Raciones: pronto",
+    "units": "{n} unidades",
+    "lead24": "Pedir con {h} h de antelación",
+    "pickup": "Recogida",
+    "delivery": "Envío",
+    "priceOnRequest": "Precio a consultar",
+    "order": "Pedir",
+    "items": {
+      "office": { "name": "Happy hour en la oficina", "text": "Tres cajas de bocadillos, bollería y dulces para una reunión de equipo o el final de la semana." },
+      "sandwiches": { "name": "Bandeja de bocadillos", "text": "12 bocadillos pequeños en panes distintos, con verdura fresca de la barra." },
+      "quiche": { "name": "Bandeja de mini quiches", "text": "12 o 24 quiches pequeñas: boniato, espinacas y pimiento, o setas, cebolla y brócoli." },
+      "fruit": { "name": "Bandeja de fruta", "text": "Fruta de temporada cortada y presentada, lista para la mesa." },
+      "picnic": { "name": "Cesta de picnic", "text": "Bocadillos, ensalada, bollería y bebidas en una sola cesta. Perfecta para la primavera." },
+      "sweets": { "name": "Caja de dulces", "text": "Rugelach, galletas y bollería dulce de la pastelería, desde medio kilo." }
+    },
+    "photoSlot": "Foto próximamente"
+  },
+  "order": {
+    "title": "Pedir bandejas, cestas y pasteles",
+    "lead": "Rellenadlo, enviadlo por WhatsApp y os contestamos para confirmar.",
+    "products": "¿Qué preparamos?",
+    "qty": "Cantidad",
+    "less": "Menos",
+    "more": "Más",
+    "persons": "¿Para cuántas personas?",
+    "date": "Fecha",
+    "time": "Hora",
+    "mode": "¿Recogida o envío?",
+    "pickup": "Recogida en el café",
+    "delivery": "Envío",
+    "address": "Dirección de entrega",
+    "notes": "Observaciones",
+    "notesPh": "Alergias, un mensaje para escribir en una tarta…",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "send": "Enviar por WhatsApp",
+    "empty": "al menos un producto",
+    "required": "Falta: {fields}",
+    "note": "El pedido queda en firme cuando lo confirmamos.",
+    "waTitle": "Nuevo pedido desde la web",
+    "waProducts": "Productos",
+    "waPersons": "Personas",
+    "waWhen": "Cuándo",
+    "waMode": "Cómo",
+    "waAddress": "Dirección",
+    "waNotes": "Observaciones",
+    "waName": "Nombre",
+    "waPhone": "Teléfono",
+    "payOnline": "Pagar en línea"
+  },
+  "blocks": [
+    {
+      "id": "cafe",
+      "kicker": "La cafetería",
+      "title": "Todos sois bienvenidos. También a cuatro patas.",
+      "text": "Mesas dentro del centro Mikado, café preparado delante de vosotros y vecinos que ya nos llaman por el nombre. Vuestro perro también es bienvenido.",
+      "cta": "Cómo llegar",
+      "videoLabel": "Un perro entra en la cafetería con su dueño"
+    },
+    {
+      "id": "pastry",
+      "kicker": "La pastelería",
+      "title": "Recién salido del horno, cada mañana.",
+      "text": "Cruasanes, rugelach, tartas de queso, quiches y galletas. Lo que no se acaba por la mañana se queda en la vitrina hasta la noche.",
+      "cta": "Ver la carta",
+      "videoLabel": "Una bandeja de cruasanes de almendra recién horneados"
+    },
+    {
+      "id": "catering",
+      "kicker": "Catering",
+      "title": "Vuestro evento, nuestra cocina.",
+      "text": "Ensaladas, bollería, quiches, bocadillos y dulces, igual de buenos que en la cafetería. Preparados según el número de invitados y vuestro presupuesto.",
+      "cta": "Pedir presupuesto"
+    }
+  ],
+  "events": {
+    "kicker": "Catering para eventos",
+    "title": "Hablemos de vuestro evento.",
+    "lead": "Catering lácteo directo de la cafetería, desde una reunión pequeña en casa hasta un evento de empresa. Contadnos qué celebráis y os enviamos un presupuesto.",
+    "types": {
+      "brit": "Brit milá",
+      "barmitzvah": "Bar/bat mitzvá",
+      "birthday": "Cumpleaños",
+      "company": "Evento de empresa",
+      "shabbat": "Shabat y fiestas",
+      "home": "Recibir en casa"
+    }
+  },
+  "eventForm": {
+    "title": "Pedir presupuesto",
+    "type": "Tipo de evento",
+    "date": "Fecha",
+    "time": "Hora",
+    "place": "Lugar",
+    "placePh": "Ciudad o dirección",
+    "guests": "Número de invitados",
+    "budget": "Presupuesto por persona (opcional)",
+    "budgetPh": "₪",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "message": "Contadnos más",
+    "send": "Enviar por WhatsApp",
+    "note": "Os contestamos con un presupuesto detallado.",
+    "waTitle": "Solicitud de presupuesto de catering",
+    "waType": "Tipo",
+    "waDate": "Fecha",
+    "waTime": "Hora",
+    "waPlace": "Lugar",
+    "waGuests": "Invitados",
+    "waBudget": "Presupuesto por persona",
+    "waName": "Nombre",
+    "waPhone": "Teléfono",
+    "waMessage": "Mensaje"
+  },
+  "about": {
+    "kicker": "Quiénes somos",
+    "title": "Uzi & Galit, una cafetería de barrio.",
+    "text": "La cafetería nació del gusto por recibir y por la buena comida, en la calle Aharon Becker, dentro del centro comercial Mikado. Vecinos, gente que trabaja cerca y quien pasa a por un café: todos reciben la misma bienvenida.",
+    "slot": "Aquí irá la historia de Uzi y Galit: quiénes son y desde cuándo existe el café."
+  },
+  "gallery": {
+    "kicker": "En Instagram",
+    "title": "Momentos en la cafetería",
+    "more": "Más en Instagram",
+    "close": "Cerrar",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "counter": "{i} de {n}",
+    "slot": "Foto próximamente"
+  },
+  "press": {
+    "kicker": "Hablan de nosotros",
+    "title": "Qué se dice de Uzi & Galit",
+    "items": {
+      "neighbors": "La cafetería participó en el proyecto vecinal de Tel Aviv que pone en valor el comercio de barrio.",
+      "stories": "Los artículos y publicaciones que hablan de nosotros, guardados en la historia destacada «hablan de nosotros» de Instagram."
+    },
+    "open": "Ver",
+    "reviewsTitle": "Opiniones de clientes",
+    "reviewsSlot": "Aquí aparecerán opiniones reales de clientes."
+  },
+  "info": {
+    "kicker": "Cómo llegar",
+    "title": "Aharon Becker 8, Tel Aviv",
+    "addressNote": "Centro comercial Mikado, norte de Tel Aviv",
+    "waze": "Ir con Waze",
+    "gmaps": "Google Maps",
+    "map": "Mostrar el mapa",
+    "mapNote": "El mapa de Google solo se carga al hacer clic.",
+    "hoursTitle": "Horario",
+    "closed": "Cerrado",
+    "hoursNote": "En fiestas y vísperas el horario cambia. Los avisos salen en la franja de arriba.",
+    "accessTitle": "Accesibilidad",
+    "access": "La cafetería está en la planta baja del centro comercial. Pronto más detalles de accesibilidad.",
+    "dogsTitle": "Perros bienvenidos",
+    "dogs": "¿Venís con perro? También es bienvenido, con correa.",
+    "kosherTitle": "Kashrut",
+    "kosher": "Cocina láctea con certificado de kashrut. Podéis pedir verlo en la cafetería.",
+    "contactTitle": "Hablad con nosotros",
+    "questions": "Pedidos y preguntas",
+    "landline": "Teléfono de la cafetería"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      { "q": "¿Con cuánta antelación se pide una bandeja?", "a": "Con un día para la mayoría de bandejas. Para eventos grandes o un viernes por la mañana, escribidnos unos días antes." },
+      { "q": "¿Hacéis envíos?", "a": "Sí. La carta del día se pide en Wolt, y las bandejas y cestas por WhatsApp, para recoger en el café o con envío. Zonas y precio del envío se indican al confirmar el pedido." },
+      { "q": "¿La comida es kosher?", "a": "La cocina es láctea y tiene certificado de kashrut. Para saber qué organismo lo emite, preguntadnos en la cafetería o por WhatsApp." },
+      { "q": "¿Opciones vegetarianas y sin gluten?", "a": "Todo es lácteo y vegetariano, con un bocadillo vegano y tartas y galletas sin azúcar añadido. Sin gluten: nuestra cocina no es estéril, así que no tenemos nada seguro para celíacos." },
+      { "q": "¿Y los alérgenos?", "a": "Los platos pueden contener gluten, leche, huevo, frutos secos y sésamo. Indicad la alergia en las observaciones y os diremos qué os conviene." },
+      { "q": "¿Cómo se paga?", "a": "En la cafetería se paga en el momento. Para bandejas y eventos, acordamos el pago al confirmar el pedido." }
+    ]
+  },
+  "footer": {
+    "tagline": "Cafetería, pastelería y catering para eventos. Aharon Becker 8, Tel Aviv.",
+    "rights": "Todos los derechos reservados",
+    "photos": "Fotos: Uzi & Galit.",
+    "legal": "Aviso legal",
+    "legalText": "Web gestionada por Uzi & Galit, Aharon Becker 8, Tel Aviv. Los pedidos se envían por WhatsApp y no se guardan en la web. Sin cookies de seguimiento. Precios orientativos, sujetos a cambios."
+  },
+  "whatsapp": { "hello": "Hola Uzi & Galit, me gustaría pedir:" },
+  "mobileBar": { "call": "Llamar", "order": "Pedir por WhatsApp", "wolt": "Wolt" },
+  "alt": {
+    "espresso": "Dos espressos cayendo en tazas de cristal en la cafetera",
+    "latte-art": "Un capuchino con dibujo en la espuma junto a un espresso",
+    "cafe-glace": "Espresso vertido sobre leche fría y espuma en un vaso transparente",
+    "chien-bienvenu": "Un perro con correa entra contento en la cafetería",
+    "vitrine-cafe": "La fachada de Uzi & Galit con el letrero, la vitrina y las estanterías",
+    "confitures-maison": "Tarros de mermelada apilados en el mostrador",
+    "tartine-saumon-oeufs": "Tosta de salmón con tomate y brotes junto a dos huevos fritos",
+    "salade-shon-portal": "Ensalada con aguacate, huevos duros y un aliño oscuro, junto a la barra de verduras",
+    "sandwich-pretzel": "Bocadillo de pan pretzel con huevo frito, queso y rúcula",
+    "sandwichs-bar-salades": "Bocadillos de pan de cereales junto a la barra de verduras picadas",
+    "couscous-enfants": "Plato de cuscús con sopa de verduras y garbanzos para niños",
+    "croissants-amandes": "Unas manos sostienen una bandeja de cruasanes de almendra dorados",
+    "sufganiyot": "Bandeja de buñuelos con crema, fruta, chocolate y fideos de colores",
+    "babka-rugelach": "Filas de babkas y rugelach de chocolate",
+    "plateau-fruits": "Dos bandejas de fruta con sandía en forma de estrella, kiwi, uvas y piña",
+    "panier-pique-nique": "Ensalada, bocadillos, cruasanes, hojaldres y dos botellas de zumo sobre papel de periódico",
+    "buffet-traiteur": "Mesa de catering vista desde arriba: ensaladas, bocadillos, buñuelos y quiches",
+    "salle-du-cafe": "La zona de mesas de la cafetería frente a su escaparate en el centro comercial"
+  }
+}

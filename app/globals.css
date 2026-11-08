@@ -1,0 +1,426 @@
+@import "tailwindcss";
+
+@theme {
+  /* Tirée de leur logo (noir sur blanc) et de leurs photos : crème, café, beurre doré, sauge, terracotta pour l'action */
+  --color-cream: #f7f1e8;
+  --color-cream-deep: #efe4d3;
+  --color-paper: #fcf9f4;
+  /* Café : titres et texte fort (10:1 sur le crème) */
+  --color-earth: #4b3428;
+  --color-ink: #1f1a17;
+  /* Texte secondaire : 6,3:1 sur le crème */
+  --color-muted: #6b594c;
+  /* Sauge : décor ; sauge foncée pour le texte (5,6:1) */
+  --color-sage: #8fa58a;
+  --color-olive: #4f6650;
+  --color-olive-deep: #3f5341;
+  /* Terracotta : boutons d'action uniquement (texte crème 4,8:1) */
+  --color-ember: #b4532e;
+  --color-ember-deep: #96421f;
+  /* Beurre doré : touches sur fond sombre */
+  --color-sun: #e3b65c;
+  --color-night: #1f1a17;
+  --color-night-soft: #2b2420;
+  --color-line: rgb(75 52 40 / 0.16);
+
+  --font-body: var(--font-jost), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-fraunces), Georgia, serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* En hébreu : Frank Ruhl Libre pour les titres, Heebo pour le texte */
+[dir="rtl"] {
+  --font-body: var(--font-heebo), Arial, sans-serif;
+  --font-display: var(--font-frank), "Times New Roman", serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* Grain de papier très discret */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+    font-weight: 400;
+    color: var(--color-earth);
+  }
+  [dir="ltr"] h1,
+  [dir="ltr"] h2 {
+    letter-spacing: -0.015em;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-sun);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ember);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .wrap {
+    width: 100%;
+    max-width: 76rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .wrap {
+      padding-inline: 2rem;
+    }
+  }
+
+  /* Petite ligne d'introduction de section, précédée d'un petit trait */
+  .kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-olive);
+  }
+  .kicker::before {
+    content: "";
+    width: 1.4rem;
+    height: 1px;
+    background: currentColor;
+  }
+  .on-dark .kicker {
+    color: var(--color-sun);
+  }
+
+  .h-display {
+    font-size: clamp(2.7rem, 7.2vw, 5.4rem);
+    line-height: 1;
+  }
+  .h-section {
+    font-size: clamp(2rem, 4.4vw, 3.25rem);
+    line-height: 1.05;
+  }
+  [dir="rtl"] .h-display,
+  [dir="rtl"] .h-section {
+    line-height: 1.08;
+    font-weight: 500;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 3rem;
+    padding: 0.7rem 1.35rem;
+    border-radius: 999px;
+    font-weight: 500;
+    font-size: 0.98rem;
+    line-height: 1.1;
+    transition: background-color 0.2s var(--ease-soft), color 0.2s var(--ease-soft), border-color 0.2s var(--ease-soft);
+    white-space: nowrap;
+  }
+  .btn-ember {
+    background: var(--color-ember);
+    color: var(--color-paper);
+  }
+  .btn-ember:hover {
+    background: var(--color-ember-deep);
+  }
+  .btn-line {
+    border: 1px solid currentColor;
+    color: var(--color-earth);
+  }
+  .btn-line:hover {
+    background: var(--color-earth);
+    color: var(--color-cream);
+    border-color: var(--color-earth);
+  }
+  .on-dark .btn-line {
+    color: var(--color-cream);
+  }
+  .on-dark .btn-line:hover {
+    background: var(--color-cream);
+    color: var(--color-night);
+    border-color: var(--color-cream);
+  }
+  .btn-sm {
+    min-height: 2.5rem;
+    padding: 0.45rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-earth);
+  }
+  .input {
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.65rem 0.9rem;
+    border-radius: 0.6rem;
+    border: 1px solid rgb(75 52 40 / 0.28);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .input:focus {
+    outline: 2px solid var(--color-olive);
+    outline-offset: 1px;
+    border-color: transparent;
+  }
+  textarea.input {
+    min-height: 6rem;
+    resize: vertical;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    border: 1px solid rgb(75 52 40 / 0.28);
+    font-size: 0.95rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+  }
+  input:checked + .chip {
+    background: var(--color-earth);
+    border-color: var(--color-earth);
+    color: var(--color-cream);
+  }
+  input:focus-visible + .chip {
+    outline: 2px solid var(--color-ember);
+    outline-offset: 2px;
+  }
+
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Apparition douce au défilement (Reveal) ; visible sans JS et si animations réduites */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 24px));
+  transition: opacity 0.7s var(--ease-soft) var(--reveal-delay, 0s), transform 0.7s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.js .reveal.in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.video-fade {
+  opacity: 0;
+  transition: opacity 0.8s var(--ease-soft);
+}
+.video-fade.playing {
+  opacity: 1;
+}
+.fade-in {
+  animation: fade-in 0.25s var(--ease-soft);
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* Bandeau fermé pendant la session : masqué avant le premier rendu (script dans <head>) */
+.banner-closed .info-banner {
+  display: none;
+}
+
+
+/* ===== Ouverture (1,5 s) : une tasse se dessine, la vapeur monte, le nom apparaît ===== */
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  background: var(--color-cream);
+  animation: intro-out 0.3s var(--ease-soft) 1.2s forwards;
+}
+.intro-seen .intro {
+  display: none;
+}
+.intro-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(70vw, 17rem);
+}
+.intro-svg {
+  width: 7rem;
+  overflow: visible;
+}
+.intro-cup {
+  stroke-dasharray: 260;
+  stroke-dashoffset: 260;
+  animation: draw 0.55s var(--ease-soft) forwards;
+}
+.intro-saucer {
+  animation-delay: 0.12s;
+}
+.intro-steam {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 60;
+  opacity: 0;
+  animation: steam 0.6s var(--ease-soft) 0.42s forwards;
+}
+.intro-steam-2 {
+  animation-delay: 0.52s;
+}
+.intro-word {
+  margin-top: 0.9rem;
+  font-family: var(--font-frank), serif;
+  font-weight: 500;
+  font-size: clamp(2.4rem, 10vw, 3.2rem);
+  line-height: 1;
+  color: var(--color-earth);
+  opacity: 0;
+  transform: translateY(8px);
+  animation: rise 0.34s var(--ease-soft) 0.6s forwards;
+}
+.intro-latin {
+  margin-top: 0.6rem;
+  font-family: var(--font-jost), sans-serif;
+  font-size: 0.76rem;
+  letter-spacing: 0.42em;
+  padding-inline-start: 0.42em;
+  color: var(--color-olive);
+  opacity: 0;
+  animation: rise 0.3s var(--ease-soft) 0.8s forwards;
+}
+.intro-skip {
+  position: absolute;
+  inset-block-end: 1.5rem;
+  inset-inline-end: 1.5rem;
+  min-height: 2.75rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes steam {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 0;
+    transform: none;
+  }
+}
+@keyframes rise {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* Barre d'actions fixe en bas sur mobile : place réservée sous le contenu */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: calc(4.25rem + env(safe-area-inset-bottom));
+  }
+}
+
+/* FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+.faq-plus {
+  transition: transform 0.2s var(--ease-soft);
+}
+
+/* Barre d'onglets de la carte : défilement horizontal sans barre visible */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

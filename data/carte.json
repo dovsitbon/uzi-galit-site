@@ -1,0 +1,338 @@
+{
+  "_note": "Carte relevée le 08/11/2026 sur leur page de livraison (Mishloha) + publications Instagram. Prix en ₪ : ceux de la livraison, À CONFIRMER pour la salle. null = « à remplir ». sample: true = plat vu sur Instagram, nom ou prix à confirmer. Les descriptions vides ne s'affichent pas (on n'invente pas la composition).",
+  "updated": "2026-11-08",
+  "currency": "₪",
+  "categories": [
+    {
+      "id": "breakfast",
+      "items": [
+        {
+          "id": "toast-salmon",
+          "name": { "he": "טוסט סלמון וביצי עין", "en": "Salmon toast & fried eggs", "fr": "Tartine saumon et œufs au plat", "es": "Tosta de salmón y huevos fritos" },
+          "desc": {
+            "he": "לחם כפרי קלוי, סלמון, עגבנייה ועלים ירוקים, לצד שתי ביצי עין.",
+            "en": "Toasted country bread, salmon, tomato and greens, with two fried eggs.",
+            "fr": "Pain de campagne grillé, saumon, tomate et jeunes pousses, avec deux œufs au plat.",
+            "es": "Pan de payés tostado, salmón, tomate y brotes, con dos huevos fritos."
+          },
+          "price": null,
+          "photo": "/media/cafe/tartine-saumon-oeufs.jpg",
+          "sample": true
+        },
+        {
+          "id": "shakshuka",
+          "name": { "he": "שקשוקה בצלחת", "en": "Shakshuka", "fr": "Chakchouka", "es": "Shakshuka" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 69
+        },
+        {
+          "id": "soup-barley",
+          "name": { "he": "מרק ירקות גריסים", "en": "Vegetable & barley soup", "fr": "Soupe de légumes à l'orge", "es": "Sopa de verduras con cebada" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 45
+        },
+        {
+          "id": "soup-kubbeh",
+          "name": { "he": "מרק קובה סלק", "en": "Beetroot kubbeh soup", "fr": "Soupe de kubbeh à la betterave", "es": "Sopa de kubbeh de remolacha" },
+          "desc": { "he": "6 קובות בכל מנה.", "en": "6 kubbeh per bowl.", "fr": "6 kubbeh par bol.", "es": "6 kubbeh por plato." },
+          "price": 83
+        },
+        {
+          "id": "breakfast-tbd",
+          "name": { "he": "ארוחת בוקר — למילוי", "en": "Breakfast (to fill in)", "fr": "Petit-déjeuner (à remplir)", "es": "Desayuno (por completar)" },
+          "desc": {
+            "he": "כאן תופיע ארוחת הבוקר של עוזי וגלית.",
+            "en": "Uzi & Galit's breakfast goes here.",
+            "fr": "Ici, le petit-déjeuner d'Uzi & Galit.",
+            "es": "Aquí irá el desayuno de Uzi & Galit."
+          },
+          "price": null,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "items": [
+        {
+          "id": "shon-portal",
+          "name": { "he": "סלט שון פורטל", "en": "Shon Portal salad", "fr": "Salade Shon Portal", "es": "Ensalada Shon Portal" },
+          "desc": {
+            "he": "הסלט מהסטורי שלנו: עלים, ירקות קצוצים מהבר, אבוקדו, ביצה קשה ורוטב מתקתק מלמעלה.",
+            "en": "The salad from our stories: greens, chopped veg from the bar, avocado, boiled egg and a sweet dressing on top.",
+            "fr": "La salade de nos stories : jeunes pousses, légumes du bar, avocat, œuf dur et une sauce sucrée par-dessus.",
+            "es": "La ensalada de nuestras stories: brotes, verduras de la barra, aguacate, huevo duro y un aliño dulce por encima."
+          },
+          "price": null,
+          "photo": "/media/cafe/salade-shon-portal.jpg",
+          "sample": true
+        },
+        {
+          "id": "salad-custom",
+          "name": { "he": "סלט בהרכבה אישית", "en": "Build-your-own salad", "fr": "Salade à composer", "es": "Ensalada a tu gusto" },
+          "desc": {
+            "he": "בוחרים מה שאוהבים מבר הירקות.",
+            "en": "Pick what you like from the vegetable bar.",
+            "fr": "Choisissez ce qui vous plaît au bar à légumes.",
+            "es": "Elegid lo que os guste de la barra de verduras."
+          },
+          "price": 59
+        },
+        {
+          "id": "salad-health",
+          "name": { "he": "סלט בריאות", "en": "Health salad", "fr": "Salade santé", "es": "Ensalada saludable" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 59
+        },
+        {
+          "id": "salad-kol-tov",
+          "name": { "he": "סלט כל טוב", "en": "“Kol Tov” salad", "fr": "Salade « Kol Tov »", "es": "Ensalada «Kol Tov»" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 59
+        },
+        {
+          "id": "salad-adama",
+          "name": { "he": "סלט אדמה", "en": "“Adama” salad", "fr": "Salade « Adama »", "es": "Ensalada «Adama»" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 59
+        },
+        {
+          "id": "salad-tuna",
+          "name": { "he": "סלט טונה קייצי", "en": "Summer tuna salad", "fr": "Salade d'été au thon", "es": "Ensalada veraniega de atún" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 59
+        },
+        {
+          "id": "salad-pasta",
+          "name": { "he": "סלט פסטה", "en": "Pasta salad", "fr": "Salade de pâtes", "es": "Ensalada de pasta" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 59
+        }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "items": [
+        {
+          "id": "sandwich-house",
+          "name": { "he": "כריך הבית", "en": "House sandwich", "fr": "Sandwich maison", "es": "Bocadillo de la casa" },
+          "desc": {
+            "he": "לחם דגנים, ירקות טריים מהבר ומילוי הבית.",
+            "en": "Multigrain bread, fresh vegetables from the bar and the house filling.",
+            "fr": "Pain aux céréales, légumes frais du bar et garniture maison.",
+            "es": "Pan de cereales, verduras frescas de la barra y el relleno de la casa."
+          },
+          "price": 49,
+          "photo": "/media/cafe/sandwichs-bar-salades.jpg"
+        },
+        {
+          "id": "pretzel",
+          "name": { "he": "כריך פרצל", "en": "Pretzel bread sandwich", "fr": "Sandwich au pain bretzel", "es": "Bocadillo de pan pretzel" },
+          "desc": {
+            "he": "לחם פרצל, ביצת עין, גבינה צהובה ורוקט.",
+            "en": "Pretzel bread, fried egg, yellow cheese and rocket.",
+            "fr": "Pain bretzel, œuf au plat, fromage et roquette.",
+            "es": "Pan pretzel, huevo frito, queso y rúcula."
+          },
+          "price": null,
+          "photo": "/media/cafe/sandwich-pretzel.jpg",
+          "sample": true
+        },
+        {
+          "id": "sandwich-sabich",
+          "name": { "he": "כריך סביח", "en": "Sabich sandwich", "fr": "Sandwich sabich", "es": "Bocadillo sabich" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 42
+        },
+        {
+          "id": "sandwich-tunisian",
+          "name": { "he": "כריך טוניסאי", "en": "Tunisian sandwich", "fr": "Sandwich tunisien", "es": "Bocadillo tunecino" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 49
+        },
+        {
+          "id": "sandwich-vegan",
+          "name": { "he": "כריך טבעוני", "en": "Vegan sandwich", "fr": "Sandwich végan", "es": "Bocadillo vegano" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 49,
+          "vegan": true
+        },
+        {
+          "id": "sandwich-norwegian",
+          "name": { "he": "כריך נורווגי", "en": "Norwegian sandwich", "fr": "Sandwich norvégien", "es": "Bocadillo noruego" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 49
+        },
+        {
+          "id": "sandwich-omelette",
+          "name": { "he": "כריך חביתת ירק", "en": "Herb omelette sandwich", "fr": "Sandwich omelette aux herbes", "es": "Bocadillo de tortilla de hierbas" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 42
+        },
+        {
+          "id": "toast-custom",
+          "name": { "he": "טוסט בהרכבה", "en": "Build-your-own toastie", "fr": "Croque à composer", "es": "Sándwich tostado a tu gusto" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 45
+        },
+        {
+          "id": "toast-tuna",
+          "name": { "he": "טוסט טונה", "en": "Tuna toastie", "fr": "Croque au thon", "es": "Sándwich tostado de atún" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 52
+        }
+      ]
+    },
+    {
+      "id": "pastry",
+      "items": [
+        {
+          "id": "croissant-almond",
+          "name": { "he": "קרואסון שקדים", "en": "Almond croissant", "fr": "Croissant aux amandes", "es": "Cruasán de almendras" },
+          "desc": {
+            "he": "יוצא מהתנור כל בוקר.",
+            "en": "Out of the oven every morning.",
+            "fr": "Sort du four chaque matin.",
+            "es": "Sale del horno cada mañana."
+          },
+          "price": null,
+          "photo": "/media/patisserie/croissants-amandes.jpg",
+          "sample": true
+        },
+        {
+          "id": "sufganiyot",
+          "name": { "he": "סופגניות", "en": "Sufganiyot (Hanukkah doughnuts)", "fr": "Sufganiyot (beignets de Hanoukka)", "es": "Sufganiyot (buñuelos de Janucá)" },
+          "desc": {
+            "he": "בחנוכה בלבד: ריבה, קרם, שוקולד, פירות וסוכריות.",
+            "en": "Hanukkah only: jam, cream, chocolate, fruit and sprinkles.",
+            "fr": "À Hanoukka seulement : confiture, crème, chocolat, fruits et vermicelles.",
+            "es": "Solo en Janucá: mermelada, crema, chocolate, fruta y fideos de colores."
+          },
+          "price": 5,
+          "priceTo": 11,
+          "photo": "/media/patisserie/sufganiyot.jpg"
+        },
+        {
+          "id": "rugelach",
+          "name": { "he": "מיני רוגעלך מפוצץ שוקולד", "en": "Mini chocolate rugelach", "fr": "Mini rugelach au chocolat", "es": "Mini rugelach de chocolate" },
+          "desc": { "he": "500 גרם.", "en": "500 g.", "fr": "500 g.", "es": "500 g." },
+          "price": 49,
+          "photo": "/media/patisserie/babka-rugelach.jpg"
+        },
+        {
+          "id": "cheesecake-crumble",
+          "name": { "he": "פס גבינה פירורים", "en": "Crumble cheesecake bar", "fr": "Gâteau au fromage crumble", "es": "Tarta de queso con crumble" },
+          "desc": { "he": "יש גם ללא תוספת סוכר.", "en": "Also available with no added sugar.", "fr": "Existe aussi sans sucre ajouté.", "es": "También sin azúcar añadido." },
+          "price": 79
+        },
+        {
+          "id": "carrot-cake",
+          "name": { "he": "עוגת גזר", "en": "Carrot cake", "fr": "Gâteau aux carottes", "es": "Tarta de zanahoria" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 59
+        },
+        {
+          "id": "berry-crumble",
+          "name": { "he": "עוגת קראמבל פירות יער", "en": "Berry crumble cake", "fr": "Gâteau crumble aux fruits rouges", "es": "Tarta crumble de frutos rojos" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 59
+        },
+        {
+          "id": "moroccan-cookies",
+          "name": { "he": "מארז עוגיות מרוקאיות", "en": "Moroccan cookies box", "fr": "Coffret de biscuits marocains", "es": "Caja de galletas marroquíes" },
+          "desc": { "he": "יש גם ללא סוכר.", "en": "Also sugar-free.", "fr": "Existe aussi sans sucre.", "es": "También sin azúcar." },
+          "price": 39
+        },
+        {
+          "id": "quiche",
+          "name": { "he": "קיש גבינות", "en": "Cheese quiche", "fr": "Quiche aux fromages", "es": "Quiche de quesos" },
+          "desc": {
+            "he": "עוד טעמים: בצל וצנובר, תרד ומוצרלה, בטטה ושום, ברוקולי וקישוא, פטריות ושקדים.",
+            "en": "Also: onion & pine nut, spinach & mozzarella, sweet potato & garlic, broccoli & courgette, mushroom & almond.",
+            "fr": "Aussi : oignon et pignons, épinards et mozzarella, patate douce et ail, brocoli et courgette, champignons et amandes.",
+            "es": "También: cebolla y piñones, espinacas y mozzarella, boniato y ajo, brócoli y calabacín, setas y almendras."
+          },
+          "price": 84
+        },
+        {
+          "id": "challah",
+          "name": { "he": "חלת הצבי", "en": "Challah", "fr": "Hallah", "es": "Jalá" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "items": [
+        {
+          "id": "coffee",
+          "name": { "he": "קפה הפוך", "en": "Cappuccino (hafuch)", "fr": "Cappuccino (hafouh)", "es": "Capuchino (hafuj)" },
+          "desc": {
+            "he": "פולים של DITTA, חלב רגיל או צמחי.",
+            "en": "DITTA beans, regular or plant milk.",
+            "fr": "Grains DITTA, lait classique ou végétal.",
+            "es": "Grano DITTA, leche normal o vegetal."
+          },
+          "price": null,
+          "photo": "/media/cafe/latte-art.jpg",
+          "sample": true
+        },
+        {
+          "id": "iced-coffee",
+          "name": { "he": "אייס קפה", "en": "Iced coffee", "fr": "Café glacé", "es": "Café con hielo" },
+          "desc": {
+            "he": "אספרסו כפול על חלב קר וקצף.",
+            "en": "Double espresso over cold milk and foam.",
+            "fr": "Double expresso sur lait froid et mousse.",
+            "es": "Doble espresso sobre leche fría y espuma."
+          },
+          "price": null,
+          "photo": "/media/cafe/cafe-glace.jpg",
+          "sample": true
+        },
+        {
+          "id": "beans",
+          "name": { "he": "קילו פולי קפה DITTA", "en": "DITTA coffee beans, 1 kg", "fr": "Café en grains DITTA, 1 kg", "es": "Café en grano DITTA, 1 kg" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 200
+        },
+        {
+          "id": "pellegrino",
+          "name": { "he": "סן פלגרינו", "en": "San Pellegrino", "fr": "San Pellegrino", "es": "San Pellegrino" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 12
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "items": [
+        {
+          "id": "kids-couscous",
+          "name": { "he": "קוסקוס ומרק לילדים", "en": "Kids' couscous & soup", "fr": "Couscous et soupe enfant", "es": "Cuscús y sopa infantil" },
+          "desc": {
+            "he": "קוסקוס עם מרק ירקות וגרגירי חומוס.",
+            "en": "Couscous with vegetable and chickpea soup.",
+            "fr": "Couscous avec sa soupe de légumes et pois chiches.",
+            "es": "Cuscús con sopa de verduras y garbanzos."
+          },
+          "price": 39,
+          "photo": "/media/cafe/couscous-enfants.jpg"
+        },
+        {
+          "id": "kids-toast",
+          "name": { "he": "טוסט ילדים", "en": "Kids' toastie", "fr": "Croque enfant", "es": "Sándwich tostado infantil" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 35
+        },
+        {
+          "id": "kids-spaghetti",
+          "name": { "he": "ספגטי ילדים ברוטב עגבניות", "en": "Kids' spaghetti in tomato sauce", "fr": "Spaghetti enfant sauce tomate", "es": "Espaguetis infantiles con tomate" },
+          "desc": { "he": "", "en": "", "fr": "", "es": "" },
+          "price": 46
+        }
+      ]
+    }
+  ]
+}

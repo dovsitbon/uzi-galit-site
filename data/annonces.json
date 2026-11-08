@@ -1,0 +1,41 @@
+{
+  "_note": "Annonces du bandeau du haut. Seule la première avec active: true et dans ses dates s'affiche. Hanoukka 2026 : 4–12 décembre.",
+  "items": [
+    {
+      "id": "sufganiyot-2026",
+      "active": true,
+      "from": "2026-11-15",
+      "to": "2026-12-12",
+      "text": {
+        "he": "הסופגניות חזרו לוויטרינה: מ-5 עד 11 ₪",
+        "en": "Sufganiyot are back in the window: 5 to 11 ₪",
+        "fr": "Les sufganiyot sont de retour en vitrine : de 5 à 11 ₪",
+        "es": "Vuelven las sufganiyot a la vitrina: de 5 a 11 ₪"
+      }
+    },
+    {
+      "id": "hiver-2026",
+      "active": true,
+      "from": "2026-11-01",
+      "to": "2026-11-14",
+      "text": {
+        "he": "מרק חם של החורף מחכה לכם, וגם לקטנים: קוסקוס ומרק ב-39 ₪",
+        "en": "Winter soup is on, and for the little ones: couscous & soup, 39 ₪",
+        "fr": "La soupe d'hiver est là, et pour les petits : couscous et soupe à 39 ₪",
+        "es": "Ya hay sopa de invierno, y para los peques: cuscús y sopa a 39 ₪"
+      }
+    },
+    {
+      "id": "picnic-2027",
+      "active": true,
+      "from": "2027-03-15",
+      "to": "2027-06-15",
+      "text": {
+        "he": "סלסלאות הפיקניק של האביב כאן. הזמינו יום מראש",
+        "en": "Spring picnic baskets are here. Order a day ahead",
+        "fr": "Les paniers pique-nique du printemps sont là. Commandez la veille",
+        "es": "Llegaron las cestas de picnic de primavera. Pedidlas un día antes"
+      }
+    }
+  ]
+}

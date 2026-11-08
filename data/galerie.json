@@ -1,0 +1,17 @@
+{
+  "_note": "Photos de la galerie, dans l'ordre. Pour en ajouter : déposer la photo dans assets/<catégorie>/, l'ajouter dans scripts/media.mjs, lancer npm run media, puis ajouter son chemin ici (et son texte alternatif dans locales/*.json → alt).",
+  "photos": [
+    "/media/cafe/vitrine-cafe.jpg",
+    "/media/plateaux/plateau-fruits.jpg",
+    "/media/cafe/latte-art.jpg",
+    "/media/patisserie/babka-rugelach.jpg",
+    "/media/cafe/chien-bienvenu.jpg",
+    "/media/evenements/buffet-traiteur.jpg",
+    "/media/patisserie/croissants-amandes.jpg",
+    "/media/cafe/confitures-maison.jpg",
+    "/media/cafe/sandwich-pretzel.jpg",
+    "/media/plateaux/panier-pique-nique.jpg",
+    "/media/galerie/salle-du-cafe.jpg",
+    "/media/patisserie/sufganiyot.jpg"
+  ]
+}

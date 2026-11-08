@@ -1,0 +1,6 @@
+{
+  "_note": "Traiteur pour les événements. Bornes du nombre d'invités provisoires.",
+  "updated": "2026-11-08",
+  "guests": { "min": 5, "max": 300, "step": 5, "default": 30 },
+  "types": ["brit", "barmitzvah", "birthday", "company", "shabbat", "home"]
+}

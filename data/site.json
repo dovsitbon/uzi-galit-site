@@ -1,0 +1,52 @@
+{
+  "url": "https://uzi-galit.vercel.app",
+  "name": "עוזי וגלית",
+  "nameLatin": "Uzi & Galit",
+  "instagram": "https://www.instagram.com/uzingalit/",
+  "instagramHandle": "@uzingalit",
+  "wolt": "https://wolt.com/he/isr/tel-aviv/restaurant/uzi-galit",
+  "mishloha": "https://order.plweb.online/wl/630052#!/rest/630052/menu",
+  "_mishloha": "Leur page de commande en livraison (Mishloha, uzingalit.co.il). Carte et prix de data/carte.json relevés là le 08/11/2026.",
+  "facebook": "https://www.facebook.com/p/Uzi-Galit-%D7%A2%D7%95%D7%96%D7%99-%D7%95%D7%92%D7%9C%D7%99%D7%AA-100063626467386/",
+  "waze": "https://waze.com/ul?ll=32.122882,34.816512&navigate=yes",
+  "gmaps": "https://www.google.com/maps/search/?api=1&query=%D7%A2%D7%95%D7%96%D7%99+%D7%95%D7%92%D7%9C%D7%99%D7%AA+%D7%90%D7%94%D7%A8%D7%95%D7%9F+%D7%91%D7%A7%D7%A8+8+%D7%AA%D7%9C+%D7%90%D7%91%D7%99%D7%91",
+  "phone": {
+    "display": "052-889-7604",
+    "intl": "+972 52-889-7604",
+    "wa": "972528897604"
+  },
+  "landline": {
+    "display": "03-644-6050",
+    "intl": "+972 3-644-6050"
+  },
+  "_landline": "Numéro fixe des annuaires (דפי זהב, Facebook). À confirmer.",
+  "geo": {
+    "lat": 32.122882,
+    "lng": 34.816512
+  },
+  "_geo": "8 Aharon Becker (OpenStreetMap), centre commercial de quartier מיקדו, Tel-Aviv nord.",
+  "kosher": {
+    "label": "כשר · חלבי",
+    "certifier": null
+  },
+  "_kosher": "Leur page Mishloha affiche une « תעודת כשרות » ; organisme et niveau à confirmer. Cuisine laitière.",
+  "dogsWelcome": true,
+  "_dogsWelcome": "Chiens vus à l'intérieur dans le reel du 10/11/2025 ; à confirmer avec Galit.",
+  "payments": {
+    "enabled": false,
+    "provider": null
+  },
+  "_payments": "Paiement en ligne prévu (lib/payment.ts) mais désactivé : passer enabled à true et brancher un prestataire (Stripe, Meshulam, Cardcom…).",
+  "press": [
+    {
+      "id": "neighbors",
+      "name": "פרגן לשכן.ה",
+      "url": "https://www.coing.co/TLV_Neighbors_Festival/84072"
+    },
+    {
+      "id": "stories",
+      "name": "מדברים עלינו",
+      "url": "https://www.instagram.com/uzingalit/"
+    }
+  ]
+}

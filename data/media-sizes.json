@@ -1,0 +1,74 @@
+{
+ "/media/hero/espresso.jpg": [
+  720,
+  1280
+ ],
+ "/media/cafe/latte-art.jpg": [
+  720,
+  1280
+ ],
+ "/media/cafe/cafe-glace.jpg": [
+  720,
+  1126
+ ],
+ "/media/cafe/chien-bienvenu.jpg": [
+  720,
+  1280
+ ],
+ "/media/cafe/vitrine-cafe.jpg": [
+  1440,
+  1800
+ ],
+ "/media/cafe/confitures-maison.jpg": [
+  720,
+  1280
+ ],
+ "/media/cafe/tartine-saumon-oeufs.jpg": [
+  720,
+  922
+ ],
+ "/media/cafe/salade-shon-portal.jpg": [
+  720,
+  896
+ ],
+ "/media/cafe/sandwich-pretzel.jpg": [
+  1440,
+  1080
+ ],
+ "/media/cafe/sandwichs-bar-salades.jpg": [
+  1440,
+  1800
+ ],
+ "/media/cafe/couscous-enfants.jpg": [
+  640,
+  353
+ ],
+ "/media/patisserie/croissants-amandes.jpg": [
+  720,
+  1280
+ ],
+ "/media/patisserie/sufganiyot.jpg": [
+  1440,
+  1800
+ ],
+ "/media/patisserie/babka-rugelach.jpg": [
+  1440,
+  1800
+ ],
+ "/media/plateaux/plateau-fruits.jpg": [
+  1440,
+  1800
+ ],
+ "/media/plateaux/panier-pique-nique.jpg": [
+  1440,
+  1310
+ ],
+ "/media/evenements/buffet-traiteur.jpg": [
+  1440,
+  810
+ ],
+ "/media/galerie/salle-du-cafe.jpg": [
+  720,
+  960
+ ]
+}

@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "title": "Café et pâtisserie à Tel-Aviv – plateaux et traiteur pour événements | Uzi & Galit",
+    "description": "Uzi & Galit, café de quartier et pâtisserie au 8 rue Aharon Becker (centre Mikado), Tel-Aviv. Viennoiseries du jour, sandwichs, salades, plateaux de réception lactés, paniers pique-nique et traiteur pour vos événements. Commande sur WhatsApp.",
+    "ogAlt": "Une table couverte de plateaux traiteur d'Uzi & Galit, vue du dessus"
+  },
+  "a11y": {
+    "skip": "Aller au contenu",
+    "lang": "Langue",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "newTab": "(s'ouvre dans un nouvel onglet)"
+  },
+  "intro": { "skip": "Passer" },
+  "banner": { "label": "Infos pratiques", "close": "Fermer le bandeau" },
+  "status": {
+    "openNow": "Ouvert",
+    "closedNow": "Fermé",
+    "until": "jusqu'à {time}",
+    "opensToday": "ouvre aujourd'hui à {time}",
+    "opensTomorrow": "ouvre demain à {time}",
+    "opensOn": "ouvre {day} à {time}",
+    "closure": "Fermé aujourd'hui : {reason}",
+    "todayOpen": "Aujourd'hui : {from}–{to}",
+    "todayClosed": "Fermé aujourd'hui"
+  },
+  "days": ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+  "nav": {
+    "menu": "La carte",
+    "trays": "Plateaux",
+    "catering": "Traiteur événements",
+    "about": "Qui sommes-nous",
+    "directions": "Venir",
+    "order": "Commander sur WhatsApp",
+    "orderShort": "Commander",
+    "call": "Appeler",
+    "instagram": "Instagram",
+    "wolt": "Commander sur Wolt"
+  },
+  "hero": {
+    "kicker": "Café · Pâtisserie · Traiteur · 8 rue Aharon Becker",
+    "title": "Venez pour le café. Restez pour le gâteau.",
+    "lead": "Un café de quartier, des viennoiseries de notre four, des repas légers et des plateaux livrés chez vous ou au bureau.",
+    "ctaMenu": "Voir la carte",
+    "videoLabel": "Un double expresso et un cappuccino préparés à la machine",
+    "press": "On parle de nous",
+    "wolt": "Aussi sur Wolt"
+  },
+  "tiles": {
+    "title": "Chez nous",
+    "items": {
+      "cafe": "Le café",
+      "pastry": "Pâtisserie",
+      "trays": "Plateaux de réception",
+      "picnic": "Paniers pique-nique",
+      "catering": "Traiteur événements"
+    }
+  },
+  "services": {
+    "label": "Comment commander",
+    "items": [
+      { "id": "whatsapp", "title": "Commande WhatsApp", "text": "Écrivez-nous, on confirme." },
+      { "id": "wolt", "title": "Livraison Wolt", "text": "La carte du jour à domicile." },
+      { "id": "pickup", "title": "Retrait au café", "text": "Prêt à l'heure choisie." },
+      { "id": "events", "title": "Événements", "text": "Traiteur lacté pour toutes les occasions." }
+    ]
+  },
+  "menu": {
+    "kicker": "La carte",
+    "title": "On mange quoi aujourd'hui ?",
+    "lead": "Viennoiseries du matin, sandwichs du bar, salades et café. Tout est lacté.",
+    "updated": "Mise à jour le {date}",
+    "tabs": {
+      "breakfast": "Petit-déjeuner et plats chauds",
+      "salads": "Salades",
+      "sandwiches": "Sandwichs et croques",
+      "pastry": "Viennoiseries et gâteaux",
+      "drinks": "Boissons",
+      "kids": "Enfants"
+    },
+    "priceTbd": "Prix bientôt",
+    "toFill": "À remplir",
+    "sample": "Vu sur Instagram",
+    "range": "{from} à {to} ₪",
+    "vegan": "Végan",
+    "allergens": "Les prix sont ceux de la livraison et peuvent changer. Une allergie ? Dites-le-nous avant de commander.",
+    "orderCta": "Commander sur WhatsApp",
+    "wolt": "Commander sur Wolt"
+  },
+  "trays": {
+    "kicker": "Plateaux et paniers",
+    "title": "Livrés prêts à servir.",
+    "lead": "Pour une réunion au bureau, des amis à la maison ou un pique-nique au parc. Commandez la veille, puis retrait au café ou livraison.",
+    "from": "À partir de ",
+    "persons": "Pour {n} personnes",
+    "personsTbd": "Nombre de personnes : bientôt",
+    "units": "{n} pièces",
+    "lead24": "À commander {h} h à l'avance",
+    "pickup": "Retrait",
+    "delivery": "Livraison",
+    "priceOnRequest": "Prix sur demande",
+    "order": "Commander",
+    "items": {
+      "office": { "name": "Happy hour au bureau", "text": "Trois formules de sandwichs, viennoiseries et douceurs pour une réunion d'équipe ou la fin de semaine." },
+      "sandwiches": { "name": "Plateau de sandwichs", "text": "12 petits sandwichs sur différents pains, avec les légumes frais du bar." },
+      "quiche": { "name": "Plateau de mini-quiches", "text": "12 ou 24 petites quiches : patate douce, épinards et poivron, ou champignons, oignon et brocoli." },
+      "fruit": { "name": "Plateau de fruits", "text": "Fruits de saison coupés et dressés, prêts pour la table." },
+      "picnic": { "name": "Panier pique-nique", "text": "Sandwichs, salade, viennoiseries et boissons dans un seul panier. Pile pour le printemps." },
+      "sweets": { "name": "Coffret de douceurs", "text": "Rugelach, biscuits et viennoiseries sucrées de la pâtisserie, à partir d'un demi-kilo." }
+    },
+    "photoSlot": "Photo à venir"
+  },
+  "order": {
+    "title": "Commander plateaux, paniers et pâtisseries",
+    "lead": "Remplissez, envoyez sur WhatsApp, et nous vous recontactons pour confirmer.",
+    "products": "Que préparons-nous ?",
+    "qty": "Quantité",
+    "less": "Moins",
+    "more": "Plus",
+    "persons": "Pour combien de personnes ?",
+    "date": "Date",
+    "time": "Heure",
+    "mode": "Retrait ou livraison ?",
+    "pickup": "Retrait au café",
+    "delivery": "Livraison",
+    "address": "Adresse de livraison",
+    "notes": "Remarques",
+    "notesPh": "Allergies, message à écrire sur un gâteau…",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "send": "Envoyer sur WhatsApp",
+    "empty": "au moins un produit",
+    "required": "Il manque : {fields}",
+    "note": "La commande est ferme une fois confirmée par nos soins.",
+    "waTitle": "Nouvelle commande depuis le site",
+    "waProducts": "Produits",
+    "waPersons": "Personnes",
+    "waWhen": "Quand",
+    "waMode": "Comment",
+    "waAddress": "Adresse",
+    "waNotes": "Remarques",
+    "waName": "Nom",
+    "waPhone": "Téléphone",
+    "payOnline": "Payer en ligne"
+  },
+  "blocks": [
+    {
+      "id": "cafe",
+      "kicker": "Le café",
+      "title": "Tout le monde est bienvenu. Même à quatre pattes.",
+      "text": "Des tables dans le centre Mikado, un café préparé sous vos yeux et des voisins qui nous appellent déjà par notre prénom. Votre chien est le bienvenu aussi.",
+      "cta": "Venir au café",
+      "videoLabel": "Un chien entre dans le café avec son maître"
+    },
+    {
+      "id": "pastry",
+      "kicker": "La pâtisserie",
+      "title": "Sorti du four, chaque matin.",
+      "text": "Croissants, rugelach, gâteaux au fromage, quiches et biscuits. Ce qui n'est pas parti le matin reste en vitrine jusqu'au soir.",
+      "cta": "Voir la carte",
+      "videoLabel": "Un plateau de croissants aux amandes tout juste sortis du four"
+    },
+    {
+      "id": "catering",
+      "kicker": "Traiteur",
+      "title": "Votre événement, notre cuisine.",
+      "text": "Salades, viennoiseries, quiches, sandwichs et douceurs, aussi bons qu'au café. Préparés selon le nombre d'invités et votre budget.",
+      "cta": "Demander un devis"
+    }
+  ],
+  "events": {
+    "kicker": "Traiteur pour les événements",
+    "title": "Parlons de votre événement.",
+    "lead": "Un traiteur lacté venu tout droit du café, de la petite réception à la maison à l'événement d'entreprise. Dites-nous ce que vous fêtez, nous revenons vers vous avec un devis.",
+    "types": {
+      "brit": "Brit mila",
+      "barmitzvah": "Bar/bat-mitsva",
+      "birthday": "Anniversaire",
+      "company": "Événement d'entreprise",
+      "shabbat": "Chabbat et fêtes",
+      "home": "Réception à la maison"
+    }
+  },
+  "eventForm": {
+    "title": "Demande de devis",
+    "type": "Type d'événement",
+    "date": "Date",
+    "time": "Heure",
+    "place": "Lieu",
+    "placePh": "Ville ou adresse",
+    "guests": "Nombre d'invités",
+    "budget": "Budget par personne (facultatif)",
+    "budgetPh": "₪",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "message": "Dites-nous en plus",
+    "send": "Envoyer sur WhatsApp",
+    "note": "Nous revenons vers vous avec un devis détaillé.",
+    "waTitle": "Demande de devis traiteur",
+    "waType": "Type",
+    "waDate": "Date",
+    "waTime": "Heure",
+    "waPlace": "Lieu",
+    "waGuests": "Invités",
+    "waBudget": "Budget par personne",
+    "waName": "Nom",
+    "waPhone": "Téléphone",
+    "waMessage": "Message"
+  },
+  "about": {
+    "kicker": "Qui sommes-nous",
+    "title": "Uzi & Galit, un café de quartier.",
+    "text": "Le café est né de l'amour de recevoir et de bien manger, rue Aharon Becker, dans le centre commercial Mikado. Habitants du quartier, gens qui travaillent à côté ou passants venus pour un café : tout le monde y reçoit le même accueil.",
+    "slot": "Ici, l'histoire d'Uzi et Galit : qui ils sont, depuis quand le café existe."
+  },
+  "gallery": {
+    "kicker": "Sur Instagram",
+    "title": "Moments au café",
+    "more": "La suite sur Instagram",
+    "close": "Fermer",
+    "prev": "Précédente",
+    "next": "Suivante",
+    "counter": "{i} sur {n}",
+    "slot": "Photo à venir"
+  },
+  "press": {
+    "kicker": "On parle de nous",
+    "title": "Ce qu'on dit d'Uzi & Galit",
+    "items": {
+      "neighbors": "Le café a participé au projet de quartier de la ville de Tel-Aviv qui met en avant les commerces de proximité.",
+      "stories": "Les articles et publications qui parlent de nous, réunis dans la story à la une « on parle de nous » sur Instagram."
+    },
+    "open": "Voir",
+    "reviewsTitle": "Avis clients",
+    "reviewsSlot": "Les vrais avis de nos clients s'afficheront ici."
+  },
+  "info": {
+    "kicker": "Venir",
+    "title": "8 rue Aharon Becker, Tel-Aviv",
+    "addressNote": "Centre commercial Mikado, nord de Tel-Aviv",
+    "waze": "Y aller avec Waze",
+    "gmaps": "Google Maps",
+    "map": "Afficher la carte",
+    "mapNote": "La carte ne se charge depuis Google qu'après un clic.",
+    "hoursTitle": "Horaires",
+    "closed": "Fermé",
+    "hoursNote": "Les horaires changent les jours de fête et les veilles. Les mises à jour s'affichent dans le bandeau en haut de page.",
+    "accessTitle": "Accessibilité",
+    "access": "Le café est au rez-de-chaussée du centre commercial. Détails d'accessibilité bientôt.",
+    "dogsTitle": "Chiens bienvenus",
+    "dogs": "Vous venez avec votre chien ? Il est le bienvenu, en laisse.",
+    "kosherTitle": "Cacherout",
+    "kosher": "Cuisine lactée avec certificat de cacherout. Vous pouvez demander à le voir au café.",
+    "contactTitle": "Nous joindre",
+    "questions": "Commandes et questions",
+    "landline": "Téléphone du café"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      { "q": "Combien de temps à l'avance commander un plateau ?", "a": "La veille pour la plupart des plateaux. Pour un grand événement ou un vendredi matin, écrivez-nous quelques jours avant." },
+      { "q": "Livrez-vous ?", "a": "Oui. La carte du jour se commande sur Wolt, les plateaux et paniers sur WhatsApp, en retrait au café ou en livraison. Zones et frais de livraison vous sont indiqués à la confirmation." },
+      { "q": "C'est casher ?", "a": "La cuisine est lactée et dispose d'un certificat de cacherout. Pour connaître l'organisme qui le délivre, demandez-nous au café ou sur WhatsApp." },
+      { "q": "Options végétariennes et sans gluten ?", "a": "Tout est lacté et végétarien, avec un sandwich végan et des gâteaux et biscuits sans sucre ajouté. Sans gluten : notre cuisine n'est pas stérile, nous n'avons donc rien de sûr pour les cœliaques." },
+      { "q": "Et les allergènes ?", "a": "Les plats peuvent contenir gluten, lait, œufs, fruits à coque et sésame. Indiquez votre allergie dans les remarques, nous vous dirons ce qui convient." },
+      { "q": "Comment payer ?", "a": "Au café, vous réglez sur place. Pour les plateaux et les événements, le paiement se convient au moment de la confirmation." }
+    ]
+  },
+  "footer": {
+    "tagline": "Café, pâtisserie et traiteur pour les événements. 8 rue Aharon Becker, Tel-Aviv.",
+    "rights": "Tous droits réservés",
+    "photos": "Photos : Uzi & Galit.",
+    "legal": "Mentions légales",
+    "legalText": "Site édité par Uzi & Galit, 8 rue Aharon Becker, Tel-Aviv. Les commandes sont envoyées par WhatsApp et ne sont pas conservées sur le site. Aucun cookie de suivi. Prix indicatifs, susceptibles de changer."
+  },
+  "whatsapp": { "hello": "Bonjour Uzi & Galit, je voudrais commander :" },
+  "mobileBar": { "call": "Appeler", "order": "Commander sur WhatsApp", "wolt": "Wolt" },
+  "alt": {
+    "espresso": "Deux expressos coulent dans des tasses en verre sur la machine à café",
+    "latte-art": "Un cappuccino avec un dessin dans la mousse à côté d'un expresso",
+    "cafe-glace": "Expresso versé sur du lait froid et de la mousse dans un gobelet transparent",
+    "chien-bienvenu": "Un chien en laisse entre joyeusement dans le café",
+    "vitrine-cafe": "La devanture d'Uzi & Galit avec l'enseigne, la vitrine et les étagères",
+    "confitures-maison": "Des pots de confiture empilés sur le comptoir",
+    "tartine-saumon-oeufs": "Tartine au saumon avec tomate et jeunes pousses, à côté de deux œufs au plat",
+    "salade-shon-portal": "Salade avec avocat, œufs durs et sauce brune, à côté du bar à légumes",
+    "sandwich-pretzel": "Sandwich au pain bretzel avec œuf au plat, fromage et roquette",
+    "sandwichs-bar-salades": "Sandwichs au pain aux céréales à côté du bar de légumes coupés",
+    "couscous-enfants": "Assiette de couscous avec soupe de légumes et pois chiches pour enfants",
+    "croissants-amandes": "Des mains tiennent un plateau de croissants aux amandes dorés",
+    "sufganiyot": "Plateau de beignets garnis de crème, fruits, chocolat et vermicelles",
+    "babka-rugelach": "Rangées de babkas et de rugelach au chocolat",
+    "plateau-fruits": "Deux plateaux de fruits avec pastèque en étoile, kiwi, raisin et ananas",
+    "panier-pique-nique": "Salade, sandwichs, croissants, feuilletés et deux bouteilles de jus sur papier journal",
+    "buffet-traiteur": "Buffet traiteur vu du dessus : salades, sandwichs, beignets et quiches",
+    "salle-du-cafe": "La salle du café face à sa vitrine, dans le centre commercial"
+  }
+}

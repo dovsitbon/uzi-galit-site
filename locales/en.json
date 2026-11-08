@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "title": "Café & Pâtisserie in Tel Aviv – Platters & Event Catering | Uzi & Galit",
+    "description": "Uzi & Galit is a neighbourhood café and pâtisserie at 8 Aharon Becker St (Mikado centre), Tel Aviv. Fresh pastries, sandwiches, salads, dairy party platters, picnic baskets and event catering. Order on WhatsApp.",
+    "ogAlt": "A table full of Uzi & Galit catering platters, seen from above"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "lang": "Language",
+    "openMenu": "Open the menu",
+    "closeMenu": "Close the menu",
+    "newTab": "(opens in a new tab)"
+  },
+  "intro": { "skip": "Skip" },
+  "banner": { "label": "Good to know", "close": "Close the notice" },
+  "status": {
+    "openNow": "Open now",
+    "closedNow": "Closed now",
+    "until": "until {time}",
+    "opensToday": "opens today at {time}",
+    "opensTomorrow": "opens tomorrow at {time}",
+    "opensOn": "opens {day} at {time}",
+    "closure": "Closed today: {reason}",
+    "todayOpen": "Today: {from}–{to}",
+    "todayClosed": "Closed today"
+  },
+  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  "nav": {
+    "menu": "Menu",
+    "trays": "Platters",
+    "catering": "Event catering",
+    "about": "About us",
+    "directions": "Find us",
+    "order": "Order on WhatsApp",
+    "orderShort": "Order",
+    "call": "Call",
+    "instagram": "Instagram",
+    "wolt": "Order on Wolt"
+  },
+  "hero": {
+    "kicker": "Café · Pâtisserie · Catering · 8 Aharon Becker",
+    "title": "Come for coffee. Stay for cake.",
+    "lead": "A neighbourhood café with pastries from our oven, light meals, and platters we bring to your home or office.",
+    "ctaMenu": "See the menu",
+    "videoLabel": "A double espresso and a cappuccino being made at the machine",
+    "press": "They talk about us",
+    "wolt": "Also on Wolt"
+  },
+  "tiles": {
+    "title": "What we do",
+    "items": {
+      "cafe": "The café",
+      "pastry": "Pâtisserie",
+      "trays": "Party platters",
+      "picnic": "Picnic baskets",
+      "catering": "Event catering"
+    }
+  },
+  "services": {
+    "label": "How to order",
+    "items": [
+      { "id": "whatsapp", "title": "Order on WhatsApp", "text": "Message us, we confirm." },
+      { "id": "wolt", "title": "Delivery on Wolt", "text": "The daily menu, to your door." },
+      { "id": "pickup", "title": "Pick up at the café", "text": "Ready at the time you choose." },
+      { "id": "events", "title": "Events", "text": "Dairy catering for any occasion." }
+    ]
+  },
+  "menu": {
+    "kicker": "The menu",
+    "title": "What are we eating today?",
+    "lead": "Morning pastries, sandwiches from the bar, salads and coffee. All dairy.",
+    "updated": "Updated {date}",
+    "tabs": {
+      "breakfast": "Breakfast & hot dishes",
+      "salads": "Salads",
+      "sandwiches": "Sandwiches & toasties",
+      "pastry": "Pastries & cakes",
+      "drinks": "Drinks",
+      "kids": "Kids"
+    },
+    "priceTbd": "Price soon",
+    "toFill": "To fill in",
+    "sample": "From Instagram",
+    "range": "{from}–{to} ₪",
+    "vegan": "Vegan",
+    "allergens": "Prices shown are delivery prices and may change. Allergic to something? Tell us before you order.",
+    "orderCta": "Order on WhatsApp",
+    "wolt": "Order on Wolt"
+  },
+  "trays": {
+    "kicker": "Platters & baskets",
+    "title": "Delivered ready to serve.",
+    "lead": "For an office meeting, friends at home or a picnic in the park. Order a day ahead, then pick up or get it delivered.",
+    "from": "From ",
+    "persons": "Serves {n}",
+    "personsTbd": "Servings: coming soon",
+    "units": "{n} pieces",
+    "lead24": "Order {h} hours ahead",
+    "pickup": "Pick-up",
+    "delivery": "Delivery",
+    "priceOnRequest": "Price on request",
+    "order": "Order",
+    "items": {
+      "office": { "name": "Office happy hour", "text": "Three set boxes of sandwiches, pastries and sweets for a team meeting or the end of the week." },
+      "sandwiches": { "name": "Sandwich platter", "text": "12 small sandwiches on different breads, with fresh veg from the bar." },
+      "quiche": { "name": "Mini quiche platter", "text": "12 or 24 little quiches: sweet potato, spinach & pepper, or mushroom, onion & broccoli." },
+      "fruit": { "name": "Fruit platter", "text": "Seasonal fruit, cut and arranged, ready for the table." },
+      "picnic": { "name": "Picnic basket", "text": "Sandwiches, salad, pastries and drinks in one basket. Made for spring." },
+      "sweets": { "name": "Sweet pastry box", "text": "Rugelach, cookies and sweet pastries from the pâtisserie, half a kilo and up." }
+    },
+    "photoSlot": "Photo coming soon"
+  },
+  "order": {
+    "title": "Order platters, baskets & pastries",
+    "lead": "Fill it in, send it on WhatsApp, and we'll get back to you to confirm.",
+    "products": "What shall we make?",
+    "qty": "Quantity",
+    "less": "Less",
+    "more": "More",
+    "persons": "How many people?",
+    "date": "Date",
+    "time": "Time",
+    "mode": "Pick-up or delivery?",
+    "pickup": "Pick up at the café",
+    "delivery": "Delivery",
+    "address": "Delivery address",
+    "notes": "Notes",
+    "notesPh": "Allergies, a message to write on a cake…",
+    "name": "Name",
+    "phone": "Phone",
+    "send": "Send on WhatsApp",
+    "empty": "at least one product",
+    "required": "Missing: {fields}",
+    "note": "Your order is final once we confirm it.",
+    "waTitle": "New order from the website",
+    "waProducts": "Products",
+    "waPersons": "People",
+    "waWhen": "When",
+    "waMode": "How",
+    "waAddress": "Address",
+    "waNotes": "Notes",
+    "waName": "Name",
+    "waPhone": "Phone",
+    "payOnline": "Pay securely"
+  },
+  "blocks": [
+    {
+      "id": "cafe",
+      "kicker": "The café",
+      "title": "Everyone's welcome. Four legs too.",
+      "text": "Tables inside the Mikado centre, coffee made in front of you, and neighbours who already know us by name. Your dog is welcome as well.",
+      "cta": "Find us",
+      "videoLabel": "A dog walks into the café with its owner"
+    },
+    {
+      "id": "pastry",
+      "kicker": "The pâtisserie",
+      "title": "Out of the oven, every morning.",
+      "text": "Croissants, rugelach, cheesecakes, quiches and cookies. Whatever isn't gone by noon stays in the window until evening.",
+      "cta": "See the menu",
+      "videoLabel": "A tray of almond croissants straight from the oven"
+    },
+    {
+      "id": "catering",
+      "kicker": "Catering",
+      "title": "Your event, our food.",
+      "text": "Salads, pastries, quiches, sandwiches and sweets, as good as at the café. Planned around your guest list and your budget.",
+      "cta": "Ask for a quote"
+    }
+  ],
+  "events": {
+    "kicker": "Event catering",
+    "title": "Let's talk about your event.",
+    "lead": "Dairy catering straight from the café, from a small gathering at home to a company event. Tell us what you're celebrating and we'll come back with a quote.",
+    "types": {
+      "brit": "Brit milah",
+      "barmitzvah": "Bar/bat mitzvah",
+      "birthday": "Birthday",
+      "company": "Company event",
+      "shabbat": "Shabbat & holidays",
+      "home": "Hosting at home"
+    }
+  },
+  "eventForm": {
+    "title": "Request a quote",
+    "type": "Type of event",
+    "date": "Date",
+    "time": "Time",
+    "place": "Venue",
+    "placePh": "City or address",
+    "guests": "Number of guests",
+    "budget": "Budget per guest (optional)",
+    "budgetPh": "₪",
+    "name": "Name",
+    "phone": "Phone",
+    "message": "Tell us more",
+    "send": "Send on WhatsApp",
+    "note": "We'll come back to you with a proper quote.",
+    "waTitle": "Event catering quote request",
+    "waType": "Type",
+    "waDate": "Date",
+    "waTime": "Time",
+    "waPlace": "Venue",
+    "waGuests": "Guests",
+    "waBudget": "Budget per guest",
+    "waName": "Name",
+    "waPhone": "Phone",
+    "waMessage": "Message"
+  },
+  "about": {
+    "kicker": "About us",
+    "title": "Uzi & Galit, a neighbourhood café.",
+    "text": "The café grew out of a love of hosting and good food, on Aharon Becker Street in the Mikado shopping centre. Locals, people who work nearby and anyone passing by for a quick coffee all get the same warm welcome.",
+    "slot": "Uzi and Galit's story goes here: who they are and when they opened."
+  },
+  "gallery": {
+    "kicker": "From Instagram",
+    "title": "Moments at the café",
+    "more": "More on Instagram",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "counter": "{i} of {n}",
+    "slot": "Photo coming soon"
+  },
+  "press": {
+    "kicker": "They talk about us",
+    "title": "What people say about Uzi & Galit",
+    "items": {
+      "neighbors": "The café took part in Tel Aviv's neighbourhood project celebrating local businesses.",
+      "stories": "Articles and posts about us, saved in the “they talk about us” highlight on Instagram."
+    },
+    "open": "Have a look",
+    "reviewsTitle": "Customer reviews",
+    "reviewsSlot": "Real customer reviews will appear here."
+  },
+  "info": {
+    "kicker": "Find us",
+    "title": "8 Aharon Becker St, Tel Aviv",
+    "addressNote": "Mikado shopping centre, North Tel Aviv",
+    "waze": "Navigate with Waze",
+    "gmaps": "Google Maps",
+    "map": "Show the map",
+    "mapNote": "The map only loads from Google once you click.",
+    "hoursTitle": "Opening hours",
+    "closed": "Closed",
+    "hoursNote": "Hours change on holidays and holiday eves. Updates in the banner at the top of the page.",
+    "accessTitle": "Accessibility",
+    "access": "The café is on the ground floor of the shopping centre. Accessibility details coming soon.",
+    "dogsTitle": "Dogs welcome",
+    "dogs": "Coming with your dog? It's welcome too, on a lead.",
+    "kosherTitle": "Kosher",
+    "kosher": "Dairy kitchen with a kashrut certificate. Ask to see it at the café.",
+    "contactTitle": "Talk to us",
+    "questions": "Orders & questions",
+    "landline": "Café phone"
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      { "q": "How far ahead should I order a platter?", "a": "A day ahead for most platters. For big events or a Friday morning, message us a few days before." },
+      { "q": "Do you deliver?", "a": "Yes. Order the daily menu on Wolt, and platters or baskets on WhatsApp for pick-up or delivery. Delivery areas and fees are given when we confirm your order." },
+      { "q": "Is the food kosher?", "a": "The kitchen is dairy and holds a kashrut certificate. For details about the certifying body, ask us at the café or on WhatsApp." },
+      { "q": "Vegetarian and gluten-free options?", "a": "Everything is dairy and vegetarian, with a vegan sandwich and cakes and cookies with no added sugar. Gluten-free: our kitchen isn't sterile, so we have nothing safe for coeliacs." },
+      { "q": "What about allergens?", "a": "Dishes may contain gluten, milk, eggs, nuts and sesame. Write your allergy in the order notes and we'll tell you what works." },
+      { "q": "How do I pay?", "a": "At the café, you pay on the spot. For platters and events, we agree on payment when we confirm the order." }
+    ]
+  },
+  "footer": {
+    "tagline": "Café, pâtisserie and event catering. 8 Aharon Becker St, Tel Aviv.",
+    "rights": "All rights reserved",
+    "photos": "Photos: Uzi & Galit.",
+    "legal": "Legal information",
+    "legalText": "This website is run by Uzi & Galit, 8 Aharon Becker St, Tel Aviv. Orders are sent via WhatsApp and are not stored on the site. No tracking cookies. Prices are indicative and may change."
+  },
+  "whatsapp": { "hello": "Hello Uzi & Galit, I'd like to order:" },
+  "mobileBar": { "call": "Call", "order": "Order on WhatsApp", "wolt": "Wolt" },
+  "alt": {
+    "espresso": "Two espressos pouring into glass cups on the coffee machine",
+    "latte-art": "A cappuccino with latte art next to a glass of espresso",
+    "cafe-glace": "Espresso poured over cold milk and foam in a clear cup",
+    "chien-bienvenu": "A happy dog on a lead walking into the café",
+    "vitrine-cafe": "The Uzi & Galit shopfront with its sign, display case and shelves",
+    "confitures-maison": "Jars of jam stacked on the counter",
+    "tartine-saumon-oeufs": "Salmon toast with tomato and greens beside two fried eggs",
+    "salade-shon-portal": "A salad with avocado, boiled eggs and a dark dressing, next to the veg bar",
+    "sandwich-pretzel": "A pretzel bread sandwich with fried egg, cheese and rocket",
+    "sandwichs-bar-salades": "Multigrain sandwiches beside the chopped-vegetable bar",
+    "couscous-enfants": "A plate of couscous with vegetable and chickpea soup for kids",
+    "croissants-amandes": "Hands holding a tray of golden almond croissants",
+    "sufganiyot": "A tray of doughnuts topped with cream, fruit, chocolate and sprinkles",
+    "babka-rugelach": "Rows of chocolate babkas and rugelach",
+    "plateau-fruits": "Two fruit platters with star-cut watermelon, kiwi, grapes and pineapple",
+    "panier-pique-nique": "Salad, sandwiches, croissants, pastries and two bottles of juice on newsprint",
+    "buffet-traiteur": "A catering spread from above: salads, sandwiches, fritters and quiches",
+    "salle-du-cafe": "The café's seating area facing its shopfront in the shopping centre"
+  }
+}
